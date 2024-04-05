@@ -3,3 +3,8 @@ h1 {
     color: crimson;
     text-shadow: 2px 1px 2px black;
 }
+.links {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkred;
+    text-shadow: 2px 1px 2px gray;
+}
