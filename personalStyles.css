@@ -22,6 +22,7 @@ a:hover {
     border: 2px solid red;
     border-radius: 5px;
     margin: 50px;
+    text-decoration: underline red;
 }
 a:visited {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
