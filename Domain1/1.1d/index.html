@@ -157,7 +157,7 @@
 				</div>
 				
 				<div class="itemtotal">
-					<p id="subtotal">"</p>
+					<p id="subtotal">&nbsp;</p>
 					<p id="salesTax">&nbsp;</p>
                     <p id="discount">10.00</p>
 					<p>________</p>
@@ -171,7 +171,6 @@
 					<p>&nbsp;</p>
 				</div>
 		<!-- Add the additon and subtraction operators in the correct places -->
-		<p class="salesTax">0.75</p>
 				<div class="order_buttons">
 					<p><input type="button" class="buttons" value="Update Cart"
                               onclick="javascript: document.getElementById('subtotal').innerHTML
@@ -181,7 +180,7 @@
     document.getElementById('salesTax').innerHTML = parseFloat(document.getElementById('subtotal').innerHTML * .07).toFixed(2);
     document.getElementById('grandtotal').innerHTML
         = (parseFloat(document.getElementById('subtotal').innerHTML)
-        * parseFloat(document.getElementById('salesTax').innerHTML)
+        + parseFloat(document.getElementById('salesTax').innerHTML)
         - parseFloat(document.getElementById('discount').innerHTML)).toFixed(2);" /></p>
 					<p><input type="button" class="buttons" value="Checkout"></p>
 				</div>
