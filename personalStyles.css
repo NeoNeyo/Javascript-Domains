@@ -3,24 +3,32 @@ h1 {
     color: crimson;
     text-shadow: 2px 1px 2px black;
 }
-.links {
+a:link {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkred;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
     padding: 10px 20px;
-    background-color: linear-gradient(darkred, #222222, black);
-    border: 2px solid linear-gradient(darkred, #222222, black);
+    background-color: black;
+    border: 2px solid darkred;
     border-radius: 5px;
 }
 a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
-    text-shadow: 2px 1px 2px gray;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
 }
 a:visited {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkblue;
-    text-shadow: 2px 1px 2px gray;
+    color: pink;
+    text-shadow: 1px 1px 1px black;
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid pink;
+    border-radius: 5px;
 }
 body {
     text-align: center;
