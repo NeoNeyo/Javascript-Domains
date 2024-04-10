@@ -104,7 +104,7 @@ li {
 }
 
 #main {
-	background-image: url(../images/pianokeys.png), url(../images/pianokeys2.png), url(../images/bars.png);
+	background-image: url(images/pianokeys.png), url(images/pianokeys2.png), url(images/bars.png);
 	background-repeat: repeat-y, repeat-y, repeat;
 	background-position: left top, right top, center top;
 }
