@@ -1,28 +1,28 @@
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: crimson;
-    text-shadow: 2px 1px 2px black;
+    color: purple;
+    text-shadow: 2px 1px 2px yellow;
 }
 a:link {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkred;
+    color: purple;
     text-shadow: 1px 1px 1px black;
     padding: 10px 20px;
     background-color: black;
-    border: 2px solid darkred;
+    border: 2px solid purple;
     border-radius: 5px;
     margin: 50px;
 }
 a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: #FF00FF;
     text-shadow: 1px 1px 1px black;
     padding: 10px 20px;
     background-color: black;
-    border: 2px solid red;
+    border: 2px solid #FF00FF;
     border-radius: 5px;
     margin: 50px;
-    text-decoration: underline red;
+    text-decoration: underline #FF00FF;
 }
 a:visited {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -40,7 +40,13 @@ body {
 }
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: darkred;
-    text-shadow: 2px 1px 2px black;
-    text-decoration: underline darkred;
+    color: purple;
+    text-shadow: 2px 1px 2px #FFFF55;
+    text-decoration: underline purple;
+}
+html {
+    background-image: url(images/image.png);
+    background-repeat: none;
+    background-color: #000000;
+    background-size: 100%;
 }
