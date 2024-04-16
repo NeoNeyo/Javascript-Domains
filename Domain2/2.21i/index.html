@@ -174,9 +174,9 @@
 				<div class="order_buttons">
 					<p><input type="button" class="buttons" value="Update Cart"
                               onclick="javascript: document.getElementById('subtotal').innerHTML
-    = (document.getElementById('mantotal').innerHTML)
-    + (document.getElementById('drumtotal').innerHTML)
-    + (document.getElementById('tromtotal').innerHTML);
+    = parseFloat (document.getElementById('mantotal').innerHTML)
+    + parseFloat (document.getElementById('drumtotal').innerHTML)
+    + parseFloat (document.getElementById('tromtotal').innerHTML);
     document.getElementById('salesTax').innerHTML = (document.getElementById('subtotal').innerHTML * .07)//.toFixed(2);
     document.getElementById('grandtotal').innerHTML
         = (document.getElementById('subtotal').innerHTML)
